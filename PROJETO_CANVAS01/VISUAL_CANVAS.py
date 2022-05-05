@@ -52,7 +52,7 @@ class VisualCanvas():
         self._posInicial_ += 5
         self._listaBola_.append([self._bola2_,self._posInicial_])
         self.moveBola2()
-        self._canvas_.
+
 
 
     def novaJanela(self):
