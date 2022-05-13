@@ -98,7 +98,8 @@ class VisualCanvas():
         self._canvas_.create_text(5, self.TAMANHO_TEXTO +
                                      ((self.TAMANHO_TEXTO) * self._linhaAtual_),
                                       text=texto,anchor='nw',
-                                  font=('courier', self.TAMANHO_TEXTO))
+
+      font=('courier', self.TAMANHO_TEXTO))
         self._linhaAtual_ +=1
 
     def iniciaProcesso(self):
