@@ -9,10 +9,12 @@ class DepositoTexto():
     def __init__(self):
         random.Random()
         self._semaforo_ = threading.Semaphore()
+
     def armazenaAleatoria(self):
         self._semaforo_.acquire()
         palavra = "Palavra_" + str(random.randint(0,10000))
         self._listaPalavras_.append(palavra)
+
         time.sleep(1)
         self._semaforo_.release()
     def armazena(self,palavra):
@@ -70,8 +72,11 @@ class VisualCanvas():
             self._depositoSemControle_ = DepositoTextoSimples()
         else:
             self._depositoSemControle_ = deposito2
-
+            
+        #Correcao
+        self._depositoLocal_ = DepositoTextoSimples()
         self._depositoLocalSemControle_ = DepositoTexto()
+
         self._nrJanela_ = nr + 1
         self._janela_ = Tk()
         print("Aqui deveria criara outra variavel")

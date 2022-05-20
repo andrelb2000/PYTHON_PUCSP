@@ -23,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PROJETO_CANVAS02" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -67,6 +67,7 @@
       <workItem from="1651768153689" duration="6392000" />
       <workItem from="1651789883618" duration="6224000" />
       <workItem from="1652447265165" duration="1187000" />
+      <workItem from="1653048204916" duration="111000" />
     </task>
     <servers />
   </component>
