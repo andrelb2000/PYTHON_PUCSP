@@ -72,10 +72,10 @@ class VisualCanvas():
             self._depositoSemControle_ = DepositoTextoSimples()
         else:
             self._depositoSemControle_ = deposito2
-            
+
         #Correcao
-        self._depositoLocal_ = DepositoTextoSimples()
-        self._depositoLocalSemControle_ = DepositoTexto()
+        self._depositoLocal_ = DepositoTexto()
+        self._depositoLocalSemControle_ = DepositoTextoSimples()
 
         self._nrJanela_ = nr + 1
         self._janela_ = Tk()
