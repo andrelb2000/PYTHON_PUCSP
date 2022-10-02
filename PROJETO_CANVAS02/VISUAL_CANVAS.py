@@ -12,10 +12,10 @@ class DepositoTexto():
 
     def armazenaAleatoria(self):
         self._semaforo_.acquire()
-        palavra = "Palavra_" + str(random.randint(0,10000))
-        self._listaPalavras_.append(palavra)
+            palavra = "Palavra_" + str(random.randint(0,10000))
+            self._listaPalavras_.append(palavra)
 
-        time.sleep(1)
+            time.sleep(1)
         self._semaforo_.release()
     def armazena(self,palavra):
         self._listaPalavras_.append(palavra)
@@ -154,12 +154,13 @@ class VisualCanvas():
         self.escreveLinha("Tempo decorrido da chamada:  " + str(round(fim-inicio,2)))
 
 
-
+#####////////////////////////////////////
     def novaJanela(self):
         self._novaJanela_ = VisualCanvas(self._nrJanela_,self._deposito_,self._depositoSemControle_)
         self._novaJanela_.iniciar()
     def iniciar(self):
         self._janela_.mainloop()
+#####///////////////////////////////////
 
     def processo(self):
         self._deposito_.armazenaAleatoria()
